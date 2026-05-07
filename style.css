@@ -1,0 +1,158 @@
+/* global style end */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+/* global style end */
+
+/* ========top header start========== */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    padding: 0px 30px;
+    font-size: 20px;
+    color: white;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-header a{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10px;
+    background-color: white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* ===========top header end========== */
+
+/* ========middle header start========== */
+.middle-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+
+}
+.middle-header img{
+    width: 150px;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search input{
+    padding: 10px;
+    width: 400px;
+    box-shadow: 1px 1px 1px white;
+}
+.search button{
+    padding: 10px;
+    margin-left: -30px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card ul{
+    list-style-type: none;
+}
+.card ul li{
+    display: inline-block;
+}
+.card ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 0px 5px;
+    position: relative;
+}
+.card ul li a span{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: #3c7d17;
+    color: #fff;
+    height: 18px;
+    width: 18px;
+    line-height: 18px;
+    font-size: 14px;
+    border-radius: 50px;
+    text-align: center;
+}
+/* ==========middle header end========= */
+
+/* =======navigation start========= */
+.navigation{
+    background-color: green;
+    text-align: center;
+    padding: 20px 0px;
+}
+.navigation ul{
+    list-style-type: none;
+}
+.navigation ul li{
+    display: inline-block;
+}
+.navigation ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 10px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+}
+/* =======navigation end========= */
+
+/* =========banner start============= */
+
+.baner img{
+    width: 100%;
+}
+/* ===========banner end========= */
+
+/* =====Top Categories section start======= */
+.top-ct h1{
+    padding: 20px 15px;
+}
+.top-ct hr{
+    opacity: 0.3;
+}
+.top-Categories {
+    padding: 20px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.top-Categories img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+.top-Categories p{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+/* =====Top Categories section start======= */
