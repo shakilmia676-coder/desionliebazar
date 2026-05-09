@@ -6,6 +6,7 @@
 }
 body{
     background-color: #ececec;
+    position: relative;
 }
 img{
     max-width: 100%;
@@ -317,9 +318,9 @@ footer{
     display: inline-block;
 }
 .right-icon a i{
-    position: fixed;
+    position: fixed !important;
     right: 20px;
-    bottom: 20px;
+    bottom: 30px;
     font-size: 30px;
     background-color: green;
     border-radius: 50%;
