@@ -313,7 +313,10 @@ footer{
 /* whatsapp icon section start */
 
 /* right-arrow-icon start */
-.right-arrow-icon a{
+.right-icon{
+    display: inline-block;
+}
+.right-icon a i{
     position: fixed;
     right: 20px;
     bottom: 20px;
